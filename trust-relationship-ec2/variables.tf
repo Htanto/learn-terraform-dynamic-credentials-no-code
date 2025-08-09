@@ -42,7 +42,7 @@ variable "vault_aws_secrets_backend_path" {
 
 variable "vault_namespace" {
   type        = string
-  default     = "admin"
+  default     = "root"
   description = "The namespace of the Vault instance you'd like to create the AWS and jwt auth backends in."
 }
 
