@@ -3,7 +3,7 @@
 
 variable "instance_type" {
   description = "Type of EC2 instance to use."
-  default     = "t2.micro"
+  default     = "t3.micro"
   type        = string
 }
 
@@ -15,6 +15,6 @@ variable "tags" {
 
 variable "aws_region" {
   type        = string
-  default     = "us-east-2"
+  default     = "ap-southeast-1"
   description = "AWS region for all resources."
 }
